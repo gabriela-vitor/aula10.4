@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(){
+	
+	int n1, i = 1, divisor;
+	
+	printf("digite um numero\n");
+	scanf("%d", &n1);
+	
+	while(i <= n1){
+		
+		if(n1 % i == 0){
+			divisor = i;
+			printf("divisor: %d\n", divisor);
+		}
+		
+		i++;
+	}
+	
+	
+	
+	
+	
+}
